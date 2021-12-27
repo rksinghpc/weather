@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.unsplash.com/photo-1639929472244-788ff1e70caa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    background-size: cover;
+    height:100vh;
+    background-repeat: no-repeat;
+}
+
+body img{
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5;
+}
+
+.container{
+    position: relative;
+    background: rgb(62 28 28);
+    color: aliceblue;
+    width: 40vh;
+    height: 35vh;
+    opacity: 0.85;
+}
+
+.search{
+    display: flex;
+    padding: 10px;
+}
+
+.searchbar{
+    background: #000;
+    color: aliceblue;
+    width: 33vh;
+    height: 4vh;
+    border-radius: 20px;
+}
+
+.searchbutton{
+
+    padding: 7px;
+}
+
+.searchbutton img{
+    width: 30px;
+    height: 30px;
+  
+}
+
+.city{
+    padding-left: 3vw;
+    padding-top: 1vh ;
+    font-size: 25px;
+}
+
+.temp{
+    padding: 2vh;
+    font-size: 50px;
+}
+
+.image img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 5vh;
+    right: 1vw;
+}
+
+.weather{
+    padding-left: 2vh;
+    font-size: 20px;
+}
+
+footer{
+    background: #000;
+    display: flex;
+    height: 3.5vh;
+    width: 40vh;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0px;
+    font-size: 12px ;
+}
+
+
+#tempunit{
+    position: absolute;
+    right: 5px;
+    display: flex;
+    align-items:center ;
+    font-style: bold;
+    font-size: 20px;
+    padding: 10px;
+    color: gray;
+}
+
+#tempunit:hover{
+    font-size: 23px;
+    color: rgb(184, 184, 184);
+}

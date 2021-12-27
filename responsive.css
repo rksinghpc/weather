@@ -1,0 +1,20 @@
+@media screen and (max-width:800px){
+    .container{
+        height: 100vw;
+        width: 80vw;
+    }
+    .searchbar{
+        width: 70vw;
+        height: 8vw;
+    }
+    footer{
+        width: 80vw;
+        height: 10vw;
+    }
+    .image img{
+        bottom: 35vw;
+        right: 0vw;
+        width: 120px;
+        height: 120px;
+    }
+}
